@@ -1,6 +1,3 @@
----
-title: ML Performance Benchmark
----
 
 # ML Performance Benchmarking Platform
 
