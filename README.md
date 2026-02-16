@@ -2,7 +2,7 @@
 title: ML Performance Benchmark
 emoji: 🚀
 colorFrom: blue
-colorTo: cyan
+colorTo: indigo
 sdk: docker
 app_port: 7860
 pinned: false
@@ -37,24 +37,14 @@ Try it here: [Hugging Face Space](https://huggingface.co/spaces/sidselothcodes/m
 ## Performance Results
 
 | Mode | Latency | Throughput | Speedup |
-|------|---------|------------|---------|
-||||||||||||||||||||||||k/s | 29x |
-| Quantized | 3.07s | 8.9 tok/s | 2.8x |
-| Baseline | 8.59s | 4.0 tok/s | 1.0x |
+|------|---------|------------|---------||------|---------|-----tok/s |------|---------|------------8.|------|--2.|------|---line |------|------tok/s | 1.0x |
 
 ## Local Development
 
 ### Backend
 ```bash
 cd backend
-pip install -r requirements.txt
-uvicorn app:app --reload
-```
-
-### Frontend
-```bash
-cd frontend
-npm innpm innpm innpm v
+pip install -r requpip install -r requpip install -r requpip install -r requpip install -r requpip inpip install -r rv
 ```
 
 ## Author
