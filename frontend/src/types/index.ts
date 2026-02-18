@@ -119,6 +119,8 @@ export interface ModeConfig {
   key: OptimizationMode;
   label: string;
   color: string;
+  bgColor: string;
+  borderColor: string;
   description: string;
 }
 
@@ -127,30 +129,40 @@ export const MODE_CONFIGS: ModeConfig[] = [
     key: 'baseline',
     label: 'Baseline',
     color: '#64748B',
+    bgColor: 'bg-slate-50',
+    borderColor: 'border-slate-300',
     description: 'Standard PyTorch FP32 inference',
   },
   {
     key: 'quantized',
     label: 'Quantized',
     color: '#06B6D4',
+    bgColor: 'bg-cyan-50',
+    borderColor: 'border-cyan-300',
     description: 'INT8 dynamic quantization',
   },
   {
     key: 'torchscript',
     label: 'TorchScript',
     color: '#10B981',
+    bgColor: 'bg-emerald-50',
+    borderColor: 'border-emerald-300',
     description: 'TorchScript traced compilation',
   },
   {
     key: 'onnx',
     label: 'ONNX',
     color: '#F59E0B',
+    bgColor: 'bg-amber-50',
+    borderColor: 'border-amber-300',
     description: 'ONNX Runtime optimized inference',
   },
   {
     key: 'batched',
     label: 'Batched',
     color: '#EC4899',
+    bgColor: 'bg-pink-50',
+    borderColor: 'border-pink-300',
     description: 'Dynamic batching with queue',
   },
 ];
